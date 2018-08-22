@@ -1,55 +1,96 @@
-/* General Elements*/
+/* Main divs*/
 body{
-	background-image: url("../images/background.png")
+    background-image: url("https://images.unsplash.com/photo-1521133573892-e44906baee46?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3bb59980f497c31767565ed35b1b3dc8&auto=format&fit=crop&w=800&q=60");
+    background-size: cover;
 }
-div{
-	background-color: white;
+
+h1{
+    font-size: 30pt;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    font-weight: 700;
+}
+
+ol{
+    list-style: upper-roman; 
+    padding: 30px;
+}
+
+ul {
+	list-style: circle;
+}
+
+/* Specfic divs*/
+div.header, div.gems{
+    background-color: #e0e0eb;
+    background-color: white;
 	margin: 10px;
-	width: 25%
-}
-div{
-	border: solid 2px antiquewhite;
+    width: 390px;
+    border: solid 2px antiquewhite;
 	padding: 10px;
 }
-h1, h3, span{
-	font-weight: bold;
-	text-align: center;
-}
-h1{
-	font-size: 30pt;
-}
-ol{
-	list-style: decimal inside; 
-}
-ul {
-	list-style: disc inside;
-	text-indent: 20px;
-}
-/* Specfic Elements*/
-div.header, div.gems{
-	background-color: #e0e0eb;
-}
 div.header, div.instructions{
-	width: 50%;
+    width: 548px;
+    background-color: white;
+	margin: 10px;
+    width: 390px;
+    border: solid 2px antiquewhite;
+	padding: 10px;
+}
+
+div.gems {
+    background-color: white;
+	margin: 10px;
+    width: 390px;
+    border: solid 2px antiquewhite;
+	padding: 10px;
+
 }
 /* Classes */
-.numberToMatch, .winsAndLosses{
-	float: left;
-	width: 15%;
-	height: 60px;
+.matchThisNumber {
+    float: left;
+    text-align: center;
+    background-color: white;
+    margin: 10px;
+    height: 40px;
+    width: 390px;
+    border: solid 2px antiquewhite;
+	padding: 10px;
 }
+
+.winsAndLosses{
+    float: left;
+    text-align: center;
+    background-color: white;
+	margin: 10px;
+    width: 390px;
+    height: 40px;
+    border: solid 2px antiquewhite;
+	padding: 10px;
+}
+
 .userTotal{
-	width: 15%;
-	height: 60px;
+    text-align: center;
+    background-color: white;
+	margin: 10px;
+    width: 390px;
+    border: solid 2px antiquewhite;
+	padding: 10px;
 }
 .gems{
 	clear: both;
 }
 .gemImage{
-	height: 60px;
-	margin: 10px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    
 }
-/* IDs */
+/* IDs for crystals in the instruction div*/
 #blue{
 	color: #3092c7;
 }
